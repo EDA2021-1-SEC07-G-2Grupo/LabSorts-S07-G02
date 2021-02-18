@@ -187,8 +187,8 @@ def compareauthors(authorname1, author):
     return -1
 
 
-def compareratings(book1, book2):
-    return (float(book1['average_rating']) > float(book2['average_rating']))
+def compareratings(book1, book2): 
+    return (float(book1['average_rating']) < float(book2['average_rating']))
 
 
 def comparetagnames(name, tag):
